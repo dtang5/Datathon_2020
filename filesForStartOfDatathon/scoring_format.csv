@@ -1,0 +1,14 @@
+segment_id,wellbore_chev_no_id,area_id,formation_id,bit_model_id,drillbit_size,min_depth,max_depth,surface_weight_on_bit,surface_rpm
+wellbore_chev_no_0_749,wellbore_chev_no_0,area_0,formation_233,bit_model_1,12.25,22470,22499.5,32.55051769,150.5055
+wellbore_chev_no_0_750,wellbore_chev_no_0,area_0,formation_233,bit_model_1,12.25,22500,22529.5,36.33034318,150.4671677
+wellbore_chev_no_0_751,wellbore_chev_no_0,area_0,formation_233,bit_model_1,12.25,22530,22559.5,38.59044959,150.5731677
+wellbore_chev_no_0_752,wellbore_chev_no_0,area_0,formation_233,bit_model_1,12.25,22560,22589.5,33.99895544,150.1905006
+wellbore_chev_no_0_753,wellbore_chev_no_0,area_0,formation_233,bit_model_1,12.25,22590,22619.5,31.2560373,149.9448326
+wellbore_chev_no_0_754,wellbore_chev_no_0,area_0,formation_233,bit_model_1,12.25,22620,22649.5,33.56133699,149.9838328
+wellbore_chev_no_0_755,wellbore_chev_no_0,area_0,formation_233,bit_model_1,12.25,22650,22679.5,39.92645035,150.0039996
+wellbore_chev_no_0_756,wellbore_chev_no_0,area_0,formation_71,bit_model_1,12.25,22680,22709.5,28.64135505,149.9668315
+wellbore_chev_no_0_757,wellbore_chev_no_0,area_0,formation_69,bit_model_1,12.25,22710,22739.5,18.91342015,150.4972883
+wellbore_chev_no_0_758,wellbore_chev_no_0,area_0,formation_68,bit_model_1,12.25,22740,22769.5,29.45081889,150.4848343
+wellbore_chev_no_0_759,wellbore_chev_no_0,area_0,formation_67,bit_model_1,12.25,22770,22799.5,33.59183486,150.4418348
+wellbore_chev_no_0_760,wellbore_chev_no_0,area_0,formation_67,bit_model_1,12.25,22800,22829.5,35.74611877,150.4445
+wellbore_chev_no_0_761,wellbore_chev_no_0,area_0,formation_67,bit_model_1,12.25,22830,22859.5,37.19088135,150.220666
