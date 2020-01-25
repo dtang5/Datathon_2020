@@ -19,8 +19,6 @@ class App extends Component {
   handleChange = event => {
     const value = event.target.value;
     const name = event.target.name;
-    console.log("value" + event.target.value);
-    console.log("name" + event.target.name);
     var formData = this.state.formData;
     formData[name] = value;
     this.setState({
@@ -30,7 +28,8 @@ class App extends Component {
 
   handlePredictClick = event => {
     const formData = this.state.formData;
-    fetch("localhost:8000/", {
+    console.log("Reached form" + str(this.state.formData))
+    fetch("http://127.0.0.1:3001", {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json"
@@ -38,13 +37,15 @@ class App extends Component {
       method: "POST",
       body: JSON.stringify(formData)
     })
-      .then(response => response.json())
+      .then(response => {response.json(); console.log(response.json())})
       .then(response => {
         this.setState({
           result: response.result
         });
-      });
-  };
+})
+console.log("Console is here");
+console.log(this.state.result);
+};
 
   render() {
     return (
@@ -53,19 +54,19 @@ class App extends Component {
           name="drillbit_size"
           type="number"
           id="first"
-          onChange={this.handleChange}
+          onKeyUp={this.handleChange}
         />
         <input
           name="min_depth"
           type="number"
           id="second"
-          onChange={this.handleChange}
+          onKeyUp={this.handleChange}
         />
         <input
           name="max_depth"
           type="number"
           id="third"
-          onChange={this.handleChange}
+          onKeyUp={this.handleChange}
         />
         <button onClick={this.handlePredictClick}>Predict</button>
       </form>
